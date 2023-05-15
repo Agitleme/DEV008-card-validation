@@ -1,14 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html>  
   <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8">  
+  <title>Tarjeta de crédito válida</title>
+  <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
+   <body>
+    <header> Ayuda a Perros y Gatos en situación de calle</header>
+    <br>
+    <img src="Rescate de perros.jpg">
+   <h1>ADOPTA NO COMPRES</h1>
+      <main>Nos dedicamos al cuidado y rehabilitación de perros que han sido cruelmente agredidos por el ser humano, sometidos a drogas. Nosotros les damos la oportunidad de que ellos sepan lo que es el AMOR. 
+      </main>
+        <h3>Necesitamos de tu ayuda</h3>
+      <br>
+    <p>Los aportes económicos son importantes para pagar tratamientos veterinarios, transportes, medicamentos, recuperaciones, alimentación, esterilizaciones, insumos médicos, servicios públicos de guardería, empleados, mantenimiento del hogar, impresión de materiales de difusión.
+      Cualquier aporte es de gran ayuda para nuestros peludos.</p>
+      <br>
+    <img src="Imagen 1.gif">
+   <h3>Donación única</h3>
+   <br>
+   <p> Tu apoyo es muy importante para seguir brindando segundas oportunidades.</p> 
+   <br>
+   <meta charset="utf-8">  
+  <main class = "main conteiner">
+  <h1>Deseas donar<hr></h1>
+  <section class=" main conteiner_section-conteiner">
+  <form action="#" class="main-conteiner_form-section">
+    <label for="name">Número de tarjeta</label>
+    <input type="text" class= "main-conteiner_form-section_input-mode" id="creditCardNumber" name="numerodetarjeta" placeholder="000 000 000"
+    oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" maxlength="16" /> 
+   <br>
+    <label for="name">Nombre del titular de la tarjeta</label>
+    <input type="text" class="main-conteiner_form-section_input-mode" id="idnombre" maxlength="20" placeholder="Nombre con Apellidos" name="fecha de caducidad"  required="">
+    <br>
+    <label for="name">Fecha de la tarjeta</label>
+    <input type="text" class= "main-conteiner_form-section_input-mode" id="idfecha" name="FechadelaTarjeta" placeholder="00/00"
+    oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" maxlength="5">
+    <br>
+    <label for="name">Codigo de seguridad</label>
+    <input type="text" class= "main-conteiner_form-section_input-mode" id="idcvv" name="CVV" placeholder="CVV"
+    oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" maxlength="3" />
+    </form>
+    <label for="mensaje">Presiona Donar</label>
+    </section>
+    <input type="button" id="botondedonar"  value="Donar" class="main container_button">
+    </main>
+    <br>
+    <footer> Alejandra Paola Méndez Alcántara Laboratoria 2023</footer>
+  <script src="index.js" type="module"></script>
   </body>
+  
 </html>

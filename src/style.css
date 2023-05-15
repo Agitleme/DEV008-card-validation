@@ -1,0 +1,62 @@
+
+header{
+    background-color: whitesmoke;
+    background-size: 3px;
+    text-align: center;
+    color: rgb(39, 47, 50);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 250%;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-style: dashed;
+    border-color: black;
+    margin: 2px;
+
+}
+
+h1{color:rgb(67, 13, 13); 
+    font-size:60px;
+    font-family:Courier;
+    font-weight:bold;
+    font-style:italic;
+    line-height:80px;
+    letter-spacing:5px;
+    text-decoration:underline;
+    text-transform:capitalize;
+    text-align:center;
+    text-indent:80px;
+}
+
+
+body {
+    background-image: url("2024.jpg");
+    text-align: center;
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    
+    }
+
+    section {
+background-color:blanchedalmond;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+line-height:30px;
+
+}
+
+
+footer {
+    background-color: whitesmoke;
+    background-size: 3px;
+    text-align: center;
+    color: rgb(39, 47, 50);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 250%;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-style: dashed;
+    border-color: black;
+    margin: 2px;  
+}    
